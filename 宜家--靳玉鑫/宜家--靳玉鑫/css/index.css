@@ -1,0 +1,309 @@
+/* <!-- 文字滚动开始 --> */
+ .item h2{
+     text-align: center;
+ }
+ .item .attr{
+      height: 100px;
+ }
+ .item .attr .d1{
+   padding: 30px 40px;
+     float: left;
+     /* display: flex;
+     align-content: center;   //加上这三行会变成一行
+     justify-content: center; */
+ }
+ /* 文字滚动结束 */
+#topup{
+    /* margin:0 -59px; */
+    position: fixed;
+    width:83px;
+    height:83px;
+    z-index:999;
+    right:20px;
+    bottom:50px;
+}
+#topup img{
+    position: fixed;
+    width:83px;
+    height:83px;
+    z-index:999;
+    right:20px;
+    bottom:150px;
+}
+#topup a{
+    display:block;
+    width:83px;
+    height:83px;
+    background:url("../img/2020-04-21_140516.png") no-repeat;
+}
+#topup span{
+    margin-left: 15px;
+    display: none;
+}
+#topup:hover span{
+    display: initial;
+}
+ /* 返回顶部结束 */
+
+
+.top-bar{
+    background-color: #000;
+}
+.top-bar a{
+    padding: 15px 0;
+    color:#fff;
+}
+.top-bar span{
+    color:#fff;
+    padding: 15px 0;
+}
+
+/* <!-- 导航开始 --> */
+.daohang  {
+    padding:10px 20px;
+}
+.daohang img{
+    padding:0 20px;
+}
+.daohang a{
+    color: #000;
+}
+/* <!-- 导航结束 --> */
+/* <!-- 搜索开始 --> */
+.sousuo .input-group-prepend{
+    padding: 0 0 0 40px;
+}
+/* <!-- 搜索结束 --> */
+
+/* <!-- 标题开始 --> */
+.biaoti h1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 0 0 0;
+}
+/* <!-- 标题结束 --> */
+
+/* <!-- 轮播图开始 --> */
+.lun{
+    padding: 30px 0 80px 0;
+}
+ /* <!-- 轮播图结束 --> */
+.footer{
+    background-color: #0058a3;
+    color: #fff;
+    
+}
+/* <!-- 焕新开始 --> */
+ .yingchun h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 0 0;
+ }
+.huanxin img{
+    /* display: block; */
+    /* width: 100%; */
+    /* float: left; */
+    /* display: flex;
+    align-items: center;
+     justify-content: center; */
+    /* padding: 20px 40px 20px 40px; */
+    margin-right: 20px;
+    margin-left: 110px;
+    margin-bottom: 30px;
+    
+}
+/* <!-- 焕新结束 --> */
+ 
+/* <!-- 迎接春天开始 --> */
+.tu img{
+    margin-left: 110px;
+     
+    margin-right: 0px;
+    margin-top: 20px;
+    
+}
+.tu .san img{
+    /* float: left; */
+    margin-right: 20px;
+}
+.tu .chakan{
+    width: 152px;
+    height: 45px;
+    border: 1px #0058a3 solid;
+    color: #0058a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: 100px;
+    margin-bottom:100px ;
+}
+.tu .chakan:hover{
+    background-color: #0058a3;
+    color: #fff;
+}
+/* <!-- 迎接春天结束 --> */
+.yinxiang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* <!-- 音响开始 --> */
+.giff img{
+    padding: 20px 0px 50px 110px;
+    float: left;
+    display: block;
+    margin-right: 130px;
+}
+ .g span{
+    color: rgb(240, 92, 24);
+    /* margin-left: 110px; */
+    /* padding:15px 100px; */
+}
+.g img{
+    padding: 20px 0;
+}
+.enzia{
+    margin-top: 30px;
+}
+.chun .chakan{
+    width: 152px;
+    height: 45px;
+    border: 1px #0058a3 solid;
+    color: #0058a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: 100px;
+    margin-bottom:100px ;
+}
+/* <!-- 音响结束 --> */
+/* <!-- 惊喜开始 --> */
+ 
+.jingxi h2{
+    text-align: center;
+}
+.jingxi p{
+    text-align: center;
+    color: #000;
+}
+.jingxi    img{
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+  
+}
+.jingxi .ch{
+    width: 152px;
+    height: 45px;
+    border: 1px #0058a3 solid;
+    color: #0058a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: 120px;
+    margin-bottom:50px ;
+
+}
+/* <!-- 惊喜结束 --> */
+/* <!-- 热销产品分类开始 --> */
+.rexiao h2{
+    text-align: center;
+}
+.rexiao .zong{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rexiao .tutu{
+    float: left;
+    width:200px;
+    height:152px;
+    overflow: hidden;
+}
+.rexiao .tutu img{
+    padding: 15px 20px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+.rexiao .tutu img:hover{
+    transform: scale(1.4);
+}
+.rexiao .tutu p{
+    text-align: center;
+}
+.rexiao .tutu p:hover{
+    transform: scale(1.4);
+}
+.rexiao  .ch{
+    width: 152px;
+    height: 45px;
+    border: 1px #0058a3 solid;
+    color: #0058a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: 120px;
+    margin-bottom:50px ;
+
+}
+
+/* <!-- 热销产品分类结束 --> */
+
+
+/* <!-- 宜家明星系列开始 --> */
+.mingxing{
+    padding: 50px 0;
+}
+ 
+.mingxing h2{
+    text-align: center;
+}
+.mingxing .zuo{
+    float: left;
+    padding: 20px 30px 20px 100px;
+}
+.mingxing .zuo a{
+    color: rgb(24, 71, 223);
+}
+.mingxing .shafaxilie{
+    float: left;
+    padding: 20px 15px 20px 100px;
+}
+ /* 宜家明星系列结束  */
+ /* <!-- 商品信息开始 --> */
+ .xinxi h2{
+     text-align: center;
+ }
+ /* <!-- 商品信息结束 --> */
+  
+.footer p{
+    color: #fff;
+}
+.footer .lianjie{
+    font-size: 15px;
+    padding: 30px 30px;
+}
+ 
+.footer .ge{
+    padding: 30px 50px;
+}
+.footer .webo{
+    padding: 0 450px;
+}
+.footer .last{
+    padding: 40px 250px;
+}
+.footer span{
+    padding: 0px 182px;
+}

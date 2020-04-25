@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="43px" viewBox="0 0 50 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>PaaS／icon／全局搜索</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PaaS平台" transform="translate(-434.000000, -5619.000000)">
+            <g id="feature/normal" transform="translate(360.000000, 5564.000000)">
+                <g id="PaaS/icon/全局搜索" transform="translate(75.000000, 56.000000)">
+                    <g id="Group-4">
+                        <rect id="Rectangle-4" fill="#767D85" transform="translate(42.238607, 35.913910) rotate(35.000000) translate(-42.238607, -35.913910) " x="34.8833131" y="33.9907276" width="14.7105882" height="3.84636376" rx="1.92318188"></rect>
+                        <circle id="Oval-6" stroke="#767D85" stroke-width="2" cx="20.1934097" cy="20.1934097" r="20.1934097"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

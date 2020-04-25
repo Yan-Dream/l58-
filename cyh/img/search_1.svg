@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="30px" viewBox="0 0 45 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Search-Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24" height="24" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search-Icon">
+            <g>
+                <rect id="Rectangle-2" fill-opacity="0" fill="#FFFFFF" opacity="0.5" x="0" y="0" width="30" height="30"></rect>
+                <use id="Oval" stroke="#B1BAC9" mask="url(#mask-2)" stroke-width="2" stroke-linecap="square" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M29.0146932,29.0146932 L20.5,20.5" id="Line" stroke="#B1BAC9" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,6 @@
+bug1:搜索栏圆角没出来
+解决：加border-radius:10px;
+bug2:div浮动会盖住footer,导致footer错乱
+解决：调整距离，清除浮动
+bug3:图片放大卡顿
+解决：把transform的值调小

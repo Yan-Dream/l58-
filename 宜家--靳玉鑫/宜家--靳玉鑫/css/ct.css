@@ -1,0 +1,122 @@
+.top-bar{
+    background-color: #000;
+}
+.top-bar a{
+    padding: 15px 0;
+    color:#fff;
+}
+.top-bar span{
+    color:#fff;
+    padding: 15px 0;
+}
+
+/* <!-- 导航开始 --> */
+.daohang  {
+    padding:10px 20px;
+}
+.daohang img{
+    padding:0 20px;
+}
+.daohang a{
+    color: #000;
+}
+/* <!-- 导航结束 --> */
+/* <!-- 搜索开始 --> */
+.sousuo .input-group-prepend{
+    padding: 0 0 0 40px;
+}
+.sousuo  p a{
+     color: #0058a3;
+}
+.sousuo p{
+    color: #000;
+   padding: 15px 40px;
+}
+/* <!-- 搜索结束 --> */
+
+/* 小字开始  */
+.biaoti{
+    padding: 10px 0 20px 40px;
+}
+.biaoti h1{
+    text-align: center;
+}
+.biaoti p{
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    padding: 30px 0;
+}
+/* 小字结束 */
+/* 小字开始  */
+.xiaozi{
+    padding: 10px 0 20px 40px;
+}
+.xiaozi h1{
+    text-align: center;
+}
+/* 小字结束 */
+.collapsible h1{
+    text-align: center;
+}
+.qq    .ttq {
+     display: block;
+     float: left;
+     display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-right: 60px;
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.collapsable-area__button-container .button {
+    width: 100%;
+    max-width: 768px;
+    color: #407ab1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* .middle{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+} */
+.middle p{
+    text-align: center;
+}
+.middle h4{
+    text-align: center;
+}
+.middle img{
+   margin: 0 auto;
+   display: block;
+   margin-bottom: 40px;
+}
+/* 尾部结束 */
+.footer{
+    background-color: #0058a3;
+}
+ 
+.footer p{
+    color: #fff;
+}
+.footer .lianjie{
+    font-size: 15px;
+    padding: 30px 30px;
+}
+ 
+.footer .ge{
+    padding: 30px 50px;
+}
+.footer .webo{
+    padding: 0 450px;
+}
+.footer .last{
+    padding: 40px 250px;
+}
+.footer span{
+    padding: 0px 182px;
+}
