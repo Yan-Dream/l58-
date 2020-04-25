@@ -1,0 +1,189 @@
+.c-row{
+    margin: 0;
+    padding: 0;
+}
+/* header start yzc */
+.navbar {
+    max-height: 90px;
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-toggle{
+    background-color: rgba(0,0,0,0.05);
+    margin-right: 30px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-brand{
+    color: rgb(255, 247, 66);
+    background: url(../img/kj_logo.png) no-repeat;
+    background-size: contain;   /*把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域*/
+    height: 80px;
+    width: 200px;
+    background-position: 0% 50%;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    line-height: 60px;
+}
+.navbar-default .navbar-nav>li>a::before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #d9d9d9;
+    position: absolute;
+    opacity: 1;
+    bottom: 0;
+    left: 15px;
+    right: auto;
+    top: auto;
+    transition: all 0s ease;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    animation: daohang 0.4s forwards;
+    color: #fff;
+}
+.dh{
+    animation: daohang1 1s forwards;
+}
+.dh1{
+    animation: daohang2 1s forwards;
+}
+@keyframes daohang{
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: #FDB846;
+    }
+}
+@keyframes daohang1{
+    0%{
+        background: transparent;
+    }
+    50%{
+        background-color: #FDB846;
+    }
+    100%{
+        background-color: transparent;
+    }
+}
+@keyframes daohang2{
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: #FDA413;
+    }
+}
+.navbar-default .navbar-nav>li>a:hover::before{
+    content: "";
+    display: block;
+    width: calc(100% - 30px);
+    transition: all 0.3s ease;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #FDB846;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.dropdown-menu>li>a {
+    color: #FFF;
+    min-height: 40px;
+    line-height: 40px;
+}
+.dropdown-menu{
+    background-color: #FDA413;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #FDB846;
+}
+/* header end yzc */
+/* footer start yzc */
+.kj_fot_er{
+    min-height: 80px;
+    margin: 0 auto;
+}
+.kj_fot_er img{
+    max-width: 110px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.kj_fot_er h5{
+    color: #999;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.kj_fot_btm{
+    text-align: center;
+    color: #999;
+    margin-top: 70px;
+    padding: 30px 0px;
+}
+.kj_fot_btm h5{
+    padding: 0 15px;
+}
+.kj_fot_left{
+    margin: 0 0 50px;
+    border-bottom: rgb(83,83,83) solid 2px;
+    min-height: 50px;
+}
+.kj_fot_left .t{
+    min-height: 50px;
+    width: 92px;
+    border-bottom: 2px solid rgb(253, 164, 19);
+    float: left;
+}
+.kj_fot_left .t img{
+    width: 100%;
+    height: 100%;
+}
+.kj_fot_left1{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    min-height: 20px;
+}
+.kj_fot_left1 h5{
+    font-weight: bold;
+    color: #999;
+    line-height: 20px;
+}
+.kj_fot_left1_img{
+    min-height: auto;
+    width: 25px;
+    float: left;
+    min-width: auto;
+}
+.kj_fot_left1_img img{
+    height: 14px;
+}
+.kj_fot_right{
+    padding-top: 60px;
+}
+/* footer center 开始 yzc */
+.kj_fot_left h4{
+    color: #FDA413;
+    font-weight: bold;
+}
+.kj_fot_center h5{
+    color: #fff;
+}
+/* footer center 结束 yzc */
+/* footer end yzc */
