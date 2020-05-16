@@ -1,0 +1,95 @@
+/* banner start yzc */
+.section{
+    padding-bottom: 100px;
+    padding-top: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 450px;
+    width: 100%;
+    background: url(../img/Property_banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.ban_sec{
+    position: relative;
+    z-index: 1;
+    padding: 2vw;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.ban_zz{
+    position: absolute;
+    height: 450px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    opacity: 0.30000000000000004;
+    z-index: 0;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section .h1{
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+.section .h1::after{
+    content: "─";
+    display: block;
+    line-height: 10px;
+}
+/* banner end yzc */
+/* content start yzc */
+.con_left{
+    width: 60%;
+    float: none;
+    position: relative;
+}
+.con_img{
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+}
+.con_right{
+    margin: auto auto auto 550px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    display: block;
+    z-index: 2;
+    background-color: rgba(244, 244, 244, 0.6);
+    height: 70%;
+    width: 70%;
+    min-height: auto;
+    text-align: center;
+    padding: 70px 50px 30px;
+    padding-top: 50px;
+}
+.con2_left{
+    width: 60%;
+    float: right;
+    position: relative;
+}
+.con2_right{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    margin: auto 550px auto auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: inline-block;
+    z-index: 2;
+    background-color: rgba(244, 244, 244, 0.6);
+    padding: 70px 50px 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+/* content end yzc */

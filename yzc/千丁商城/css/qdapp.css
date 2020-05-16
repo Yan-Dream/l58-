@@ -1,0 +1,146 @@
+/* banner start yzc */
+.section{
+    padding-bottom: 100px;
+    padding-top: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 450px;
+    width: 100%;
+    background: url(../img/qdapp_banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.ban_zz{
+    position: absolute;
+    height: 450px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    opacity: 0.30000000000000004;
+    z-index: 0;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ban{
+    display: -webkit-flex;
+    flex-direction: column;
+    display: flex;
+    flex: 1 1 0%;
+    align-items: flex-end;
+}
+.ban_sec{
+    padding: 2vw 4vw 4vw;
+    color: white;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0);
+    width: 70%;
+    padding-bottom: 2vw;
+    z-index: 3;
+    display: -webkit-flex;
+    display: flex;
+    transform: translateY(50px);
+    opacity: 0;
+}
+.ban_dh{
+    animation: ban_dh 1s forwards;
+}
+.ban_sec .h1{
+    line-height: 1em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 10px 5px 5px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.ban_sec .p2{
+    line-height: 1.3em;
+    margin-top: 30px;
+    padding: 0px 5px;
+    margin-bottom: -30px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(247, 245, 245);
+    font-weight: lighter;
+}
+@keyframes ban_dh{
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+/* banner end yzc */
+/* content start yzc */
+.conb{
+    padding: 60px 0 60px;
+}
+.c-img{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    display: inline-block;
+}
+.conw{
+    padding: 0px;
+}
+.con_right{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 0px;
+}
+.con_left{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 80px;
+    padding-left: 0px;
+}
+.con_r_img1{
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-image: url(../img/qdapp_con1_r.png);
+}
+.con_r_img2{
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-image: url(../img/qdapp_con2_r.png);
+}
+.con_r_img3{
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-image: url(../img/qdapp_con3_r.png);
+}
+.con_r_img4{
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-image: url(../img/qdapp_con4_r.png);
+}
+.con_r_img5{
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-image: url(../img/qdapp_con5_r.png);
+}
+.con_r_img6{
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-image: url(../img/qdapp_con6_r.png);
+}
+.con_r_h4{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+/* content end yzc */

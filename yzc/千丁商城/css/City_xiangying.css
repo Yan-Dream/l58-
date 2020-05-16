@@ -1,0 +1,40 @@
+@media (max-width:1200px){
+    .section .p2{
+        margin: 0 150px 5px 120px;
+    }
+    .p1{
+        margin: 0 150px 5px 120px;
+    }
+}
+@media (max-width:770px){
+    .section .p2{
+        margin: 0px;
+    }
+    .p1{
+        margin: 0px;
+    }
+    .con_top{
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: space-between;
+    }
+    .con_top .h2{
+        font-size: 16px;
+        text-align: center;
+        width: auto;
+        color: rgb(3, 2, 2);
+        margin-left: 20px;
+    }
+    .con_top .hr{
+        margin-left: 20px;
+        margin-right: 0px;
+        flex: 1 1 0%;
+    }
+    .col-lg-2_4{
+        width: 100%;
+    }
+    .con2_l{
+        border-left: none;
+        border-right: none;
+    }
+}

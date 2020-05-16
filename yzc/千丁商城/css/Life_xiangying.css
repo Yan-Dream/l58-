@@ -1,0 +1,43 @@
+@media (max-width:1200px){
+
+}
+@media (max-width:992px){
+    .con_right{
+        margin-right: 0px;
+        margin-left: 400px;
+        padding-top: 30px;
+        height: 90%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .con2_right{
+        margin-right: 400px;
+        padding-top: 30px;
+        height: 90%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width:768px){
+    .con_left{
+        width: 100%;
+    }
+    .con2_left{
+        width: 100%;
+    }
+    .con_right{
+        position: relative;
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 15px;
+        padding-bottom: 30px;
+        margin-bottom: 0px;
+    }
+    .con2_right{
+        position: relative;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 15px;
+    }
+}
