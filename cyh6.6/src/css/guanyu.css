@@ -1,0 +1,212 @@
+ul, li {
+    list-style: none;
+    list-style-type: none;
+}
+.main {
+    width: 1200px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.lmenu {
+    width: 200px;
+    float: left;
+}
+.lmenu h1 {
+    font-size: 20px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #000;
+    border-bottom: 2px solid #6eb92b;
+}
+.lmenu li.cur {
+    border-bottom: 1px solid #6eb92b;
+}
+.lmenu li {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    padding-left: 20px;
+}
+.lmenu li a {
+    background: url(../img/lmarr.png) no-repeat left center;
+    padding-left: 25px;
+    font-size: 16px;
+}
+.lmenu li a:hover, .lmenu li.cur a {
+    background: url(../img/lmarrh.png) no-repeat left center;
+    color: #6eb92b;
+}
+.lmenu li a {
+    background: url(../img/lmarr.png) no-repeat left center;
+    padding-left: 25px;
+    font-size: 16px;
+}
+.mainside {
+    width: 950px;
+    float: right;
+}
+.bread {
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    line-height: 60px;
+    overflow: hidden;
+}
+.bread span.left {
+    font-size: 22px;
+    color: #0080cc;
+    border-bottom: 2px solid #0080cc;
+    height: 58px;
+    line-height: 58px;
+}
+.bread span.right a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.artcont {
+    font-size: 16px;
+    padding-top: 30px;
+}
+.leader li a.title {
+    font-size: 18px;
+}
+.leader li {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+content a{
+    color: #000;
+}
+content a:hover{
+    color: #6eb92b;
+    text-decoration: none;
+}
+@media screen and (max-width: 1200px){
+    .lmenu {
+    width: 100%;
+    float: none;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.lmenu li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 0;
+}
+.mainside {
+    width: 100%;
+    float: none;
+}
+.bread span.left {
+    display: none;
+}
+.bread span.right {
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.newslist li {
+    width: 100%;
+    float: none;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+.newslist li div.right {
+    width: auto;
+    float: right;
+    padding-left: 20px;
+    margin-left: 85px;
+}
+.artcont img {
+    max-width: 100%;
+}
+.newslist li div.left {
+    margin-right: -85px;
+}
+
+}
+/* footer */
+footer {
+    background: #6eb92b;
+    text-align: center;
+    color: #fff;
+}
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+footer div.left {
+    max-width: 960px;
+    border-right: 1px solid #fff;
+    padding-right: 19px;
+    padding-top: 10px;
+}
+footer div.left span.left a {
+    padding-right: 10px;
+    color: #fff;
+}
+footer div.left span.right {
+    text-align: right;
+}
+footer div.right {
+    width: 200px;
+    padding-left: 10px;
+}
+footer div.right img {
+    width: 90px;
+    padding-left: 10px;
+}
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    display: block;
+}
+@media screen and (max-width: 1200px){
+    .main {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer div.left {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+    border-right: 0;
+}
+footer div.left span.left {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+footer div.left span.right {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+footer div.right {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+}
+
+}
